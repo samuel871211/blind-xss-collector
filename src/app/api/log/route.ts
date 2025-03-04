@@ -22,11 +22,3 @@ async function handleRequest(request: NextRequest) {
 
 export const GET = handleRequest;
 export const POST = handleRequest;
-
-const a = {
-  "type": "Text",
-  "content": "123",
-  "chatId": "75f2b456-5000-721b-9804-195616371e80",
-  "identifyValue": "GUEST",
-  "from": "web"
-}
